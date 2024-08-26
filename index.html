@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Free Encryptor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<script src="app.js"></script>
+
+<body>
+
+    <header class="Webname">
+        <h1 class="Webname_text">Challenge Encriptador de Texto Oracle ONE</h1>
+    </header>
+
+    <main class="content">
+        <section class="content_funcion">
+            <textarea class="content_funcion_texto" id="texto_ingresado">Ingrese el texto</textarea>
+
+            <div class="alerta">
+                <img class="icono_alerta" alt="icono_de_alerta" src="Imagenes/icons8-exclamación-24.png">
+                <p>Solo letras minúsculas, sin acentos y sin carácteres especiales</p>
+            </div>
+
+            <div class="botones">
+                
+                <button class="content_funcion_boton" id="boton_1" onclick="encriptar()">Encriptar</button>
+                <button class="content_funcion_boton" id="boton_2" onclick="desencriptar()">Desencriptar</button>
+            </div>
+
+        </section>
+
+        <section class="imagen">
+        
+            <img class="imagen_principal" src="Imagenes/Muñeco.png" alt="persona buscando pistas">
+            <p class="imagen_texto_1">Ningún mensaje fue encontrado</p>
+            <p class="imagen_texto_2">Ingresa el texto que desees encriptar o desencriptar</p>
+            <button class="copiar">Copiar</button>
+            
+        </section>
+
+    </main>
+
+    <footer class="pie">
+        <p>Made with &#9749; by Jeffer</p>
+        <p>2024 &#169;</p>
+    </footer>
+    
+</body>
+</html>
